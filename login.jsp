@@ -113,7 +113,7 @@
 		</div>
 	</div>
 	<script type="text/javascript">
-		var naver_id_login = new naver_id_login("6xr4B1J6enbISdMxZTb6",
+		var naver_id_login = new naver_id_login("네이버키값",
 				"http://localhost:8088/jspProject/callback.html");
 		var state = naver_id_login.getUniqState();
 		naver_id_login.setButton("green", 2, 40);
@@ -123,7 +123,7 @@
 	</script>
 	<script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
 	<script>
-		Kakao.init('182ca9ae86470d036e652f1e76681045'); //발급받은 키 중 javascript키를 사용해준다.
+		Kakao.init('카카오키값'); //발급받은 키 중 javascript키를 사용해준다.
 		console.log(Kakao.isInitialized()); // sdk초기화여부판단
 		//카카오로그인
 		function kakaoLogin() {
