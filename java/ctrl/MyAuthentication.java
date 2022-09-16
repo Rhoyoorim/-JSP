@@ -16,6 +16,3 @@ public class MyAuthentication extends Authenticator {
 		return pa;
 	}
 }
-
-
-
